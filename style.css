@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0px;
+ 
+}
+.container{
+    display: grid;
+   grid-template-columns:  1fr 1fr 1fr ;
+    grid-auto-rows: 100px  ;
+    row-gap: 250px;
+    column-gap: 0px;
+    /* gap: 300px;
+   grid-template-columns: 200px 200px 200px;
+       */
+    justify-content: center;
+   padding-left: 50px;
+   padding-top: 60px;
+}
+.container img{
+    width: 218px;
+    height: 218px;
+    /*border: 3px solid black;*/
+}
+
+.card1{
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    width:250px;
+    
+    }
+.card2{
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    width:250px;
+}
+.card3{
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    width:250px;
+}
+.card4{
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    width:250px;
+}
+.card5{
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+   width:250px;
+}
+.card :hover{
+    display: grid;
+}
